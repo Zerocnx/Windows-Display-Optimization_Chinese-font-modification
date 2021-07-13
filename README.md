@@ -1,129 +1,8 @@
 # Windows-Display-Optimization_Chinese-font-modification
 
-Mactype界面：
- 
- 
-MacType 配置文件解析：
-[Asm] 纯文本查看 复制代码
-?
-001
-002
-003
-004
-005
-006
-007
-008
-009
-010
-011
-012
-013
-014
-015
-016
-017
-018
-019
-020
-021
-022
-023
-024
-025
-026
-027
-028
-029
-030
-031
-032
-033
-034
-035
-036
-037
-038
-039
-040
-041
-042
-043
-044
-045
-046
-047
-048
-049
-050
-051
-052
-053
-054
-055
-056
-057
-058
-059
-060
-061
-062
-063
-064
-065
-066
-067
-068
-069
-070
-071
-072
-073
-074
-075
-076
-077
-078
-079
-080
-081
-082
-083
-084
-085
-086
-087
-088
-089
-090
-091
-092
-093
-094
-095
-096
-097
-098
-099
-100
-101
-102
-103
-104
-105
-106
-107
-108
-109
-110
-111
-112
-113
-114
-115
-116	[General]
-;基础配置 
-Name=zhuziAwan
+Macty配置文件
+[General]
+Name=ADaQianZiBi
 HintingMode=1
 AntiAliasMode=2
 NormalWeight=16
@@ -150,78 +29,79 @@ CacheMaxFaces=256
 CacheMaxSizes=12554432
 CacheMaxBytes=12108864
 [Preview]
-;预览界面字体，颜色大小等
-Font=zhuziAwan
+Font=ADaQianZiBi
 Color=$3300CC
-Text=zhuziAwan by：Zero_Cnx   推荐Chrome使用
+Text=ADaQianZiBi by：632079    推荐Chrome使用
 Size=10
 Align=Left
- 
+
 [ExcludeModule]
 ;【不渲染的程序，但仍会加载DLL】
- 
- 
-;【不渲染的程序，同时完全不加载DLL】
- 
+
+
+
+
 [UnloadDll]
 [exclude]
 [FontSubstitutes]
-;渲染以下字体显示为 zhuziAwan
-Fixedsys=zhuziAwan
-SimSun=zhuziAwan
-@SimSun=@zhuziAwan
-NSimSun=zhuziAwan
-@NSimSun=@zhuziAwan
-新宋体=zhuziAwan
-@新宋体=@zhuziAwan
-SimHei=zhuziAwan
-@SimHei=@zhuziAwan
-黑体=zhuziAwan
-@黑体=@zhuziAwan
-Segoe UI=zhuziAwan
-Tahoma=zhuziAwan
-Microsoft YaHei=zhuziAwan
-@microsoft YaHei=@zhuziAwan
-微软雅黑=zhuziAwan
-@微软雅黑=@zhuziAwan
-Microsoft YaHei UI=zhuziAwan
-@Microsoft YaHei UI=zhuziAwan
-微软雅黑 UI=zhuziAwan
-@微软雅黑 UI=@zhuziAwan
-MS Shell Dlg=zhuziAwan
-MS Shell Dlg 2=zhuziAwan
-Microsoft Sans Serif=zhuziAwan
-宋体=zhuziAwan
-@宋体=@zhuziAwan
-@SimSun-ExtB=@zhuziAwan
-SimSun-ExtB=zhuziAwan
-@黑体-简=@zhuziAwan
-黑体-简=zhuziAwan
-Segoe UI=zhuziAwan
-Segoe UI Light=zhuziAwan
-Segoe UI Semibold=zhuziAwan
-Segoe UI Symbol=zhuziAwan
-Segoe Print=zhuziAwan
-Segoe Script=zhuziAwan
-黑体=zhuziAwan
-隶书=zhuziAwan
-华文宋体=zhuziAwan
-华文仿宋=zhuziAwan
-华文中宋=zhuziAwan
-仿宋=zhuziAwan
-幼圆=zhuziAwan
-@幼圆=zhuziAwan
-@仿宋=zhuziAwan
-@华文中宋=zhuziAwan
-@华文仿宋=zhuziAwan
-@华文宋体=zhuziAwan
-@黑体=zhuziAwan
-@隶书=zhuziAwan
- 
- 
+Fixedsys=ADaQianZiBi
+SimSun=ADaQianZiBi
+@SimSun=@ADaQianZiBi
+NSimSun=ADaQianZiBi
+@NSimSun=@ADaQianZiBi
+新宋体=ADaQianZiBi
+@新宋体=@ADaQianZiBi
+SimHei=ADaQianZiBi
+@SimHei=@ADaQianZiBi
+黑体=ADaQianZiBi
+@黑体=@ADaQianZiBi
+Segoe UI=ADaQianZiBi
+Tahoma=ADaQianZiBi
+Microsoft YaHei=ADaQianZiBi
+@Microsoft YaHei=@ADaQianZiBi
+微软雅黑=ADaQianZiBi
+@微软雅黑=@ADaQianZiBi
+Microsoft YaHei UI=ADaQianZiBi
+@Microsoft YaHei UI=ADaQianZiBi
+微软雅黑 UI=ADaQianZiBi
+@微软雅黑 UI=@ADaQianZiBi
+MS Shell Dlg=ADaQianZiBi
+MS Shell Dlg 2=ADaQianZiBi
+Microsoft Sans Serif=ADaQianZiBi
+仿宋=ADaQianZiBi
+@仿宋=ADaQianZiBi
+宋体=ADaQianZiBi
+@宋体=@ADaQianZiBi
+@SimSun-ExtB=@ADaQianZiBi
+SimSun-ExtB=ADaQianZiBi
+@黑体-简=@ADaQianZiBi
+黑体-简=ADaQianZiBi
+Segoe UI=ADaQianZiBi
+Segoe UI Light=ADaQianZiBi
+Segoe UI Semibold=ADaQianZiBi
+Segoe UI Symbol=ADaQianZiBi
+Segoe Print=ADaQianZiBi
+Segoe Script=ADaQianZiBi
+黑体=ADaQianZiBi
+隶书=ADaQianZiBi
+华文宋体=ADaQianZiBi
+华文仿宋=ADaQianZiBi
+华文中宋=ADaQianZiBi
+仿宋=ADaQianZiBi
+幼圆=ADaQianZiBi
+@幼圆=ADaQianZiBi
+@仿宋=ADaQianZiBi
+@华文中宋=ADaQianZiBi
+@华文仿宋=ADaQianZiBi
+@华文宋体=ADaQianZiBi
+@黑体=ADaQianZiBi
+@隶书=ADaQianZiBi
+
+
+
 [Individual]
 [excludeSub]
-; 以下程序不渲染
+;【不渲染的程序，同时完全不加载DLL】
 ChatHall.exe
 CorelDRW.exe
 et.exe
@@ -237,6 +117,14 @@ wps.exe
 XLDoctorUI.exe
 e.exe
 Photoshop.exe
+i4Tools.exe
+notepad++.exe
+
+
+
+---------------------
+ 
+ 
 
 
 使用Macytpe警告：我自己使用的是注册表加载，你们可以自己选择。如果使用注册表加载，请让自己电脑有PE系统或者自己有U盘PE系统，否则万一发生无法开机情况，没法救！安全模式都进不去！
@@ -278,6 +166,5 @@ FontCreator软件下载：链接: https://pan.baidu.com/s/1OWt7ggdKvVSoLsFk8c11e
  
 我这是修改好了的，你们点击会显示字体列表的.
 OK，就这样了~
-11.png (261.79 KB, 下载次数: 1)
- 
+
 
